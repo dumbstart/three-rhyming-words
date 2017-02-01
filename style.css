@@ -1,0 +1,26 @@
+html {
+	background-color: #2c3e50;
+    -webkit-transition: background-color 1000ms linear;
+	text-align: center;
+}
+
+.question {
+	font-size: 64px;
+	font-family: 'Montserrat', sans-serif;
+	color: #ecf0f1;
+	width: 60vw;
+}
+
+.questionTransition {
+	background-color: #ecf0f1;
+}
+
+.answer {
+	font-family: 'Quicksand', sans-serif;
+	-webkit-transition: color 1000ms linear;
+	color: #2c3e50;
+}
+
+.answerTransition {
+	color: transparent;
+}

@@ -1,0 +1,36 @@
+ <!DOCTYPE html>
+ <head>
+	<meta charset = "UTF-8">
+ 	<title>Three Rhymes</title>
+ 	<link rel = "stylesheet" type = "text/css" href = "style.css" />
+ 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand" rel="stylesheet">
+</head>
+<body>
+	
+	<div>
+		<h1 id="questionText" class="question">Prime<br />Rhyme<br />Time</h1>
+	</div>
+	<div>
+		<h1 id="answerText" class="answer answerTransition">each statement can be answered<br />with three rhyming words.</h1>
+	</div>
+
+	
+	
+	
+	
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" charset="utf-8"></script>	
+<script src="https://www.gstatic.com/firebasejs/3.6.7/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCQw-92YQx2M7J9tJjHJOmDQ3ubdkJJtUo",
+    authDomain: "three-rhymes.firebaseapp.com",
+    databaseURL: "https://three-rhymes.firebaseio.com",
+    storageBucket: "three-rhymes.appspot.com",
+    messagingSenderId: "1077968657026"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="script.js" charset="utf-8"></script>	
+</body>
